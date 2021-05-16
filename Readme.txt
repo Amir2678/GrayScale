@@ -1,0 +1,1 @@
+The Bootstrap-powered Grayscale website exercise.
