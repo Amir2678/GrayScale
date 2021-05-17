@@ -48,6 +48,7 @@ html, body{
 .grayscale{
     font-size: 10vw;
     background: -webkit-linear-gradient(#eee, rgb(37, 36, 36));
+    background-clip: content-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
