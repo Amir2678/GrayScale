@@ -8,3 +8,155 @@ html, body{
     margin: 0;
     padding: 0;
 }
+
+.navbar{
+    transition: ease-in-out .5s;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+.navbar a{
+    color: #333;
+}
+.navbar-mobile a{
+    color: #333;
+}
+
+.slide1{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("./Assets/Images/bg-masthead.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    min-height: 450px;
+    padding-top: 50px;
+}.slide1 button{
+    border: none;
+    outline: none;
+    color: white;
+    min-width: 50%;
+    min-height: 2rem;
+    border-radius: 0.2rem;
+    padding: 0 1rem;
+    background-color: #5D9B9C;
+}
+
+.grayscale{
+    font-size: 10vw;
+    background: -webkit-linear-gradient(#eee, rgb(37, 36, 36));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.slide2{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("./Assets/Images/ipad.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    min-height: 350px;
+    padding-top: 50px;
+}
+
+.slide3-mobile{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("./Assets/Images/bg-masthead.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    min-height: 12rem;
+    padding-top: 50px;
+}
+
+.slide4{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("./Assets/Images/demo-image-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    min-height: 12rem;
+    padding-top: 50px;
+}
+
+.slide5{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("./Assets/Images/demo-image-02.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    min-height: 12rem;
+    padding-top: 50px;
+}
+
+.signup-slide-mobile{
+    background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,2)), url("./Assets/Images/bg-signup.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    min-height: 450px;
+    padding-top: 50px;
+}.signup-slide-mobile button{
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 2.5vw;
+    min-width: 50%;
+    min-height: 2rem;
+    border-radius: 0.2rem;
+    background-color: #5D9B9C;
+}.signup-slide-mobile input{
+    width: 100%;
+    height: 2.3rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 0.8rem;
+    color: rgb(73, 72, 72);
+}
+
+.signup-slide{
+    background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,2)), url("./Assets/Images/bg-signup.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    min-height: 450px;
+    padding-top: 50px;
+}
+.signup-slide input{
+    width: 65%;
+    height: 2.3rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 0.8rem;
+    color: rgb(73, 72, 72);
+}.signup-slide button{
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 1.5vw;
+    min-width: 30%;
+    min-height: 2rem;
+    border-radius: 0.2rem;
+    background-color: #5D9B9C;
+}
+
+.contact-way{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    border-radius: 3px;
+    margin: 6px 0;
+    padding: 1rem;
+}.contact-way div{
+    margin: 8px 0;
+}
+
